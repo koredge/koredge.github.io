@@ -2,8 +2,8 @@
 title: jekyll theme chirpy - github build error
 date: 2024-11-19 20:00:00 +0900
 categories: [tech, web]
-tags: [jekyll, chirpy, build error]
-# description: jekyll theme chirpy github build error 
+tags: [jekyll, chirpy, github build error, jekyll-theme-chirpy.scss, scss]
+description: chirpy 테마를 사용하여 github blog 를 만들때 발생하는 github build error
 ---
 
 --- layout: home # Index page ---
