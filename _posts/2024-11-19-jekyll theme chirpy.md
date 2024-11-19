@@ -1,8 +1,9 @@
 ---
-title: jekyll theme chirpy title
-date: 2024-11-19 20:00:00 +/-TTTT
+title: jekyll theme chirpy - github build error
+date: 2024-11-19 20:00:00 +0900
 categories: [tech, web]
-tags: [TAG]     # TAG names should always be lowercase
+tags: [jekyll, chirpy, build error]
+description: jekyll theme chirpy github build error 
 ---
 
-test
+--- layout: home # Index page ---
