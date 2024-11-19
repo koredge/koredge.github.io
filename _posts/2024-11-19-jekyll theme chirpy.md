@@ -7,3 +7,11 @@ tags: [jekyll, chirpy, build error]
 ---
 
 --- layout: home # Index page ---
+
+Error: Can't find stylesheet to import.
+
+Conversion error: Jekyll::Converters::Scss encountered an error while converting 'assets/css/jekyll-theme-chirpy.scss':
+                    Can't find stylesheet to import.
+
+![alt text](/assets/img/chirpy build error.png)
+_github build error message_
