@@ -49,7 +49,7 @@ Conversion error: Jekyll::Converters::Scss encountered an error while converting
 ![alt text](/assets/img/chirpy build error.png)
 _github build error message_
 
-# 4. 해결 방안
+## 4. 해결 방안
 사실 본질적인 문제가 무엇이고 아래 서술한 해결방안이 어떻게 해결이 되는 것인지 저는 정확히는 아직 알지 못한 상태입니다.
 
 다만 위 build error 를 검색해보면 `npm run build` 를 해야 한다는 얘기들을 많이 볼 수 있으며, 이는 local 에서가 아닌 github build 과정에서 수행되어야 한다는 것임을 알게 되었습니다.
