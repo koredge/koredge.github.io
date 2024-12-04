@@ -49,7 +49,7 @@ Conversion error: Jekyll::Converters::Scss encountered an error while converting
 ![alt text](/assets/img/chirpy build error.png)
 _github build error message_
 
-# 해결 방안
+# 4. 해결 방안
 사실 본질적인 문제가 무엇이고 아래 서술한 해결방안이 어떻게 해결이 되는 것인지 저는 정확히는 아직 알지 못한 상태입니다.
 
 다만 위 build error 를 검색해보면 `npm run build` 를 해야 한다는 얘기들을 많이 볼 수 있으며, 이는 local 에서가 아닌 github build 과정에서 수행되어야 한다는 것임을 알게 되었습니다.
@@ -58,7 +58,7 @@ github build 과정은 Settings > Pages 에서 추가한 `jekyll.yml(.github/wor
 
 npm build 과정을 추가하게 되면, 오류 없이 빌드/배포가 잘 수행되고 theme 가 올바르게 적용된 blog를 보실 수 있습니다.
 
-https://github.com/koredge/koredge.github.io/blob/6e6a2c079a0088831b0a80b53e4d64a8cbbce457/.github/workflows/jekyll.yml#L42
+[npm build / jekyll.yml](https://github.com/koredge/koredge.github.io/blob/b31e2f6ab39b2749af84234211ba47014b893e15/.github/workflows/jekyll.yml#L42)
 
 ![alt text](/assets/img/npm run build insert.jpg)
 _npm build 과정 삽입_
