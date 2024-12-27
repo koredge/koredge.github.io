@@ -17,8 +17,8 @@ jekyll-theme-chirpy 를 설치하는 방법은 구글링을 해보면 굉장히 
 다만 저의 경우, 아래에서 서술할 github build error 를 경험하게 되었고 이를 해결하는 방법을 첫 포스팅으로 남겨봅니다.
 
 ## 1. error 발생 시 blog 첫 화면
-구글링으로 찾아본 글들을 보면서 따라하다 보면, github 에 push 하고 아무런 오류를 확인하지 못합니다.
-: github Actions 를 확인 하기 전까진  
+구글링으로 찾아본 글들을 보면서 따라하다 보면, github 에 push 하고 아무런 오류를 확인하지 못합니다.  
+(github Actions 를 확인 하기 전까진)  
 모든 코드를 commit 하고 push 한 뒤, github blog 에 방문해보면 아래와 같이 한 줄만 표현되고 나머지는 텅 빈 화면을 볼 수 있습니다.
 
 ```--- layout: home # Index page ---```
